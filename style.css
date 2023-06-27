@@ -8,6 +8,8 @@ html {
 
 body {
     font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    line-height: 2;
 }
 
 h1, h2, h3 {
@@ -20,7 +22,7 @@ a {
 }
 
 .contenedor {
-    max-width: 1200px;
+    max-width: 70rem;
     margin: 0 auto;
 }
 
@@ -30,8 +32,9 @@ img {
 }
 
 .nombre-sitio {
-    margin: 50px 0;
+    margin: 1rem 0;
     text-align: center;
+    font-size: 3rem;
 }
 
 .nombre-sitio span {
@@ -52,7 +55,12 @@ img {
     background-image: url('assets/principal.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 550px;
+    background-position: 0% 20%;
+    height: 500px;
+}
+
+.categorias {
+    padding-top: 1rem;
 }
 
 .categorias h2 {
@@ -76,4 +84,24 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.sobre-nosotros {
+    background-image: linear-gradient(to right,transparent 50%, #037bc0 50%, #037bc0 100%), url(./assets/nosotros.jpg);
+    padding: 4rem 0;
+    height: 400px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: 100%, 60rem;
+}
+
+.sobre-nosotros-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 6rem;
+}
+
+.texto-nosotros {
+    grid-column: 2 / 3;
+    color: white;
 }
