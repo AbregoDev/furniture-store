@@ -39,6 +39,7 @@ img {
     font-weight: 700;
     padding: 1rem;
     transition: background-color 0.2s ease-out;
+    text-align: center;
 }
 
 .btn:hover {
@@ -48,6 +49,10 @@ img {
 /* Utilities */
 .text-center {
     text-align: center;
+}
+
+.max-width-20 {
+    max-width: 30rem;
 }
 
 .nombre-sitio {
@@ -233,4 +238,44 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.contenedor-blog {
+    display: flex;
+}
+
+.blog {
+    flex: 2;
+}
+
+.entrada {
+    border-bottom: 2px solid #e1e1e1;
+    padding-bottom: 4rem;
+    margin-bottom: 3rem;
+}
+
+.entrada-meta {
+    display: flex;
+    justify-content: space-between;
+}
+
+.entrada-meta p {
+    font-weight: 700;
+}
+
+.entrada-meta span {
+    color: #037bc0;
+}
+
+.entrada a {
+    height: 60px;
+    width: 180px;
+}
+
+.entrada:last-of-type {
+    border: none;
+}
+
+.lateral {
+    margin-left: 50px;
 }
