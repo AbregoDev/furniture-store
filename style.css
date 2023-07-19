@@ -279,3 +279,8 @@ img {
 .lateral {
     margin-left: 50px;
 }
+
+.contenido-entrada-blog {
+    width: 50rem;
+    margin: 0 auto;
+}
